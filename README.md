@@ -3,7 +3,7 @@
 ### AI-Driven Parking Intelligence System for Smarter Traffic Enforcement
 
 <p align="center">
-  <img src="/Users/omraj/ParkPulseAI/Screenshots/Screenshot 2026-06-16 at 2.33.28 PM.png" />
+  <img src="Screenshots/Screenshot 2026-06-16 at 2.33.28 PM.png" />
   <img src="/Users/omraj/ParkPulseAI/Screenshots/Screenshot 2026-06-16 at 2.33.37 PM.png" />
   <img src="/Users/omraj/ParkPulseAI/Screenshots/Screenshot 2026-06-16 at 2.34.19 PM.png" />
   <img src="/Users/omraj/ParkPulseAI/Screenshots/Screenshot 2026-06-16 at 2.34.26 PM.png" />
