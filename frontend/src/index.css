@@ -1,0 +1,414 @@
+/* =========================
+   GLOBAL
+========================= */
+
+body {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  background: #f5f7fa;
+  color: #172337;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1450px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+  background: linear-gradient(135deg, #172337, #2874f0);
+  color: white;
+  padding: 35px;
+  border-radius: 24px;
+  margin-bottom: 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  box-shadow: 0 12px 30px rgba(40, 116, 240, 0.25);
+}
+
+.header-tag {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 42px;
+}
+
+.header p {
+  margin-top: 12px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.header-right {
+  text-align: right;
+}
+
+.status-badge {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 12px 20px;
+  border-radius: 999px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.last-update {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* =========================
+   KPI CARDS
+========================= */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+
+  margin-bottom: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 24px;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card-icon {
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.card h2 {
+  margin: 12px 0;
+  font-size: 34px;
+}
+
+.card span {
+  color: #777;
+  font-size: 14px;
+}
+
+.critical-card {
+  border-top: 6px solid #dc2626;
+}
+
+.high-card {
+  border-top: 6px solid #f59e0b;
+}
+
+.detection-card {
+  border-top: 6px solid #16a34a;
+}
+
+/* =========================
+   INSIGHTS
+========================= */
+
+.insights {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+
+  margin-bottom: 30px;
+}
+
+.insight-item {
+  flex: 1;
+  min-width: 280px;
+
+  display: flex;
+  gap: 12px;
+  align-items: center;
+
+  background: #fff8e1;
+  border-left: 5px solid #ffe500;
+
+  padding: 18px;
+  border-radius: 14px;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* =========================
+   SECTIONS
+========================= */
+
+.section {
+  background: white;
+  border-radius: 22px;
+
+  padding: 28px;
+
+  margin-bottom: 30px;
+
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 20px;
+
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.section h2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.section p {
+  color: #666;
+}
+
+.section-icon {
+  margin-right: 8px;
+}
+
+.heatmap-badge {
+  background: #fff8e1;
+  color: #9a6700;
+
+  padding: 10px 18px;
+
+  border-radius: 999px;
+
+  font-weight: 700;
+}
+
+/* =========================
+   TABLES
+========================= */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #2874f0;
+  color: white;
+}
+
+th,
+td {
+  padding: 14px;
+  text-align: left;
+}
+
+tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+tbody tr:hover {
+  background: #f8fbff;
+}
+
+/* =========================
+   BADGES
+========================= */
+
+.badge {
+  padding: 7px 14px;
+  border-radius: 999px;
+
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.badge.critical {
+  background: #dc2626;
+}
+
+.badge.high {
+  background: #f59e0b;
+}
+
+.badge.moderate {
+  background: #16a34a;
+}
+
+/* =========================
+   RECOMMENDATIONS
+========================= */
+
+.recommendations-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.recommendation-card {
+  display: flex;
+  gap: 15px;
+
+  background: #fff7d6;
+
+  border-left: 6px solid #ffe500;
+
+  padding: 20px;
+
+  border-radius: 16px;
+}
+
+.recommendation-card strong {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.recommendation-card p {
+  margin: 0;
+}
+
+.recommendation-icon {
+  font-size: 28px;
+}
+
+/* =========================
+   SURVEILLANCE
+========================= */
+
+.surveillance-section {
+  background: #172337;
+  color: white;
+}
+
+.surveillance-section p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.live-pill {
+  background: rgba(34, 197, 94, 0.2);
+
+  color: #86efac;
+
+  padding: 10px 18px;
+
+  border-radius: 999px;
+
+  font-weight: bold;
+}
+
+video {
+  width: 100%;
+
+  border-radius: 18px;
+
+  margin-top: 20px;
+}
+
+.video-note {
+  margin-top: 20px;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  padding: 18px;
+
+  border-radius: 16px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+  text-align: center;
+
+  padding: 30px;
+
+  color: #666;
+}
+
+.footer h3 {
+  margin-bottom: 10px;
+}
+
+.footer-tags {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.footer-tags span {
+  background: #2874f0;
+
+  color: white;
+
+  padding: 8px 14px;
+
+  border-radius: 999px;
+
+  font-size: 13px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+  .container {
+    padding: 16px;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .header-right {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+}

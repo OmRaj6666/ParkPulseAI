@@ -1,0 +1,21 @@
+junction_name,violations,violation_types,violations_norm,types_norm,PIS,Risk,Recommendation
+BTP051 - Safina Plaza Junction,15449,75,1.0,1.0,100.0,Critical,Deploy towing units immediately at BTP051 - Safina Plaza Junction. Increase patrol frequency and temporary barricading.
+BTP082 - KR Market Junction,11538,45,0.7467460985559801,0.589041095890411,71.52050980228664,High,Increase enforcement presence at BTP082 - KR Market Junction during peak periods.
+BTP040 - Elite Junction,10718,30,0.693647607330182,0.3835616438356164,63.1630414631269,High,Increase enforcement presence at BTP040 - Elite Junction during peak periods.
+BTP044 - Sagar Theatre Junction,10549,31,0.6827041377970602,0.3972602739726027,62.56153650321687,High,Increase enforcement presence at BTP044 - Sagar Theatre Junction during peak periods.
+BTP211 - Central Street Junction,5388,54,0.3485074143624943,0.7123287671232876,42.127168491465305,Moderate,Monitor BTP211 - Central Street Junction and conduct periodic patrols.
+BTP058 - Subbanna Junction,5189,24,0.3356213171015994,0.3013698630136986,32.877102628401936,Moderate,Monitor BTP058 - Subbanna Junction and conduct periodic patrols.
+BTP057 - Anand Rao Junction,3935,37,0.2544194780806838,0.4794520547945206,29.942599342345115,Moderate,Monitor BTP057 - Anand Rao Junction and conduct periodic patrols.
+BTP027 - Modi Bridge Junction,4584,23,0.2964449912581752,0.2876712328767123,29.469023958188263,Moderate,Monitor BTP027 - Modi Bridge Junction and conduct periodic patrols.
+BTP045 - Danvanthri Road Junction,3181,40,0.2055947678559865,0.5205479452054794,26.85854033258851,Moderate,Monitor BTP045 - Danvanthri Road Junction and conduct periodic patrols.
+"BTP080 - NR Road, SP Road Junction",3681,30,0.2379718966522049,0.3835616438356164,26.70898460888872,Moderate,"Monitor BTP080 - NR Road, SP Road Junction and conduct periodic patrols."
+BTP020 - Hosahalli Metro Station,4101,22,0.2651686848410283,0.273972602739726,26.692946842076783,Moderate,Monitor BTP020 - Hosahalli Metro Station and conduct periodic patrols.
+BTP032 - Windsor Circle,2749,44,0.1776209285760538,0.5753424657534246,25.7165236011528,Moderate,Monitor BTP032 - Windsor Circle and conduct periodic patrols.
+"BTP083 - AS Char Street, Mysore Road",2778,41,0.1794988020462345,0.5342465753424658,25.04483567054808,Moderate,"Monitor BTP083 - AS Char Street, Mysore Road and conduct periodic patrols."
+BTP048 - Shanthala Junction,1593,47,0.102765006799197,0.6164383561643835,20.54996766722343,Low,Routine observation is sufficient at BTP048 - Shanthala Junction.
+"BTP070 - Cholurpalya Junction, Magadi Road",2272,25,0.1467331477044615,0.3150684931506849,18.040021679370625,Low,"Routine observation is sufficient at BTP070 - Cholurpalya Junction, Magadi Road."
+BTP038 - Mysore Bank Junction,2021,29,0.1304798290487599,0.3698630136986301,17.8356465978734,Low,Routine observation is sufficient at BTP038 - Mysore Bank Junction.
+"BTP001 - 10th Cross, Dr. Rajkumar Road",2812,14,0.1817004468043773,0.1643835616438356,17.823706977226905,Low,"Routine observation is sufficient at BTP001 - 10th Cross, Dr. Rajkumar Road."
+"BTP016 - 5th Main Road, RPC Layout",2474,16,0.1598135077381337,0.1917808219178082,16.620697057406865,Low,"Routine observation is sufficient at BTP016 - 5th Main Road, RPC Layout."
+BTP074 - Leprosy Hospital Junction,1047,42,0.0674091821537266,0.547945205479452,16.35163868188717,Low,Routine observation is sufficient at BTP074 - Leprosy Hospital Junction.
+BTP042 - Minsk Square Junction (CTO),2044,18,0.131969176973386,0.2191780821917808,14.941095801706496,Low,Routine observation is sufficient at BTP042 - Minsk Square Junction (CTO).

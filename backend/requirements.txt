@@ -1,0 +1,37 @@
+```txt
+# ============================
+# ParkPulse AI Requirements
+# Flipkart Gridlock Hackathon
+# ============================
+
+# Backend
+fastapi
+uvicorn
+
+# Data Processing
+pandas
+numpy
+
+# Visualization
+matplotlib
+folium
+
+# Computer Vision
+opencv-python
+ultralytics
+supervision
+lap
+
+# Machine Learning Utilities
+scikit-learn
+
+# HTTP / API
+python-multipart
+
+# Jupyter Notebooks
+notebook
+ipykernel
+
+# Optional: Environment Variables
+python-dotenv
+```
