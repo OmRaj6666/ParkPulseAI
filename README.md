@@ -4,13 +4,13 @@
 
 <p align="center">
   <img src="Screenshots/Screenshot 2026-06-16 at 2.33.28 PM.png" />
-  <img src="/Users/omraj/ParkPulseAI/Screenshots/Screenshot 2026-06-16 at 2.33.37 PM.png" />
-  <img src="/Users/omraj/ParkPulseAI/Screenshots/Screenshot 2026-06-16 at 2.34.19 PM.png" />
-  <img src="/Users/omraj/ParkPulseAI/Screenshots/Screenshot 2026-06-16 at 2.34.26 PM.png" />
-  <img src="/Users/omraj/ParkPulseAI/Screenshots/Screenshot 2026-06-16 at 2.34.30 PM.png" />
-  <img src="/Users/omraj/ParkPulseAI/Screenshots/Screenshot 2026-06-16 at 2.34.34 PM.png" />
-  <img src="/Users/omraj/ParkPulseAI/Screenshots/Screenshot 2026-06-16 at 2.34.47 PM.png" />
-  <img src=" /Users/omraj/ParkPulseAI/Screenshots/Screenshot 2026-06-16 at 2.34.52 PM.png" />          >
+  <img src="Screenshots/Screenshot 2026-06-16 at 2.33.37 PM.png" />
+  <img src="Screenshots/Screenshot 2026-06-16 at 2.34.19 PM.png" />
+  <img src="Screenshots/Screenshot 2026-06-16 at 2.34.26 PM.png" />
+  <img src="Screenshots/Screenshot 2026-06-16 at 2.34.30 PM.png" />
+  <img src="Screenshots/Screenshot 2026-06-16 at 2.34.34 PM.png" />
+  <img src="Screenshots/Screenshot 2026-06-16 at 2.34.47 PM.png" />
+  <img src="Screenshots/Screenshot 2026-06-16 at 2.34.52 PM.png" />          >
 
 </p>
 
